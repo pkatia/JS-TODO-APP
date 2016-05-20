@@ -1,0 +1,83 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    width: 780px;
+    background-color: #fff;
+    padding: 10px;
+    margin: 50px auto;
+}
+div {
+	display: block;
+}
+#add {
+	
+	float: left;
+}
+
+input {
+	position: relative;
+
+	width: 96%;
+	height: 34px;
+	margin: 0.5px 0px 0px 0px;
+	padding: 6px 12px 6px 12px;
+}
+
+input.form-control {
+	margin: 20px 0px 20px 0px;
+}
+#editDiv {
+
+}
+.remove {
+	height: 33.5px;
+}
+#cover-div {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9000;
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    opacity: 0.3;
+}
+ #myModal {
+    display: inline-block;
+    padding: 5px 5px 5px 70px;
+    width: 60%;
+    border: none;
+    background: white;
+    vertical-align: middle;
+    border-radius: 2%;
+}
+
+#container {
+      position: fixed;
+      z-index: 9999;
+      display: none;
+      width: 100%;
+}
+
+#container:before {
+      display: inline-block;
+      height: 100%;
+      content: '';
+      vertical-align: middle;
+}
+
+
+.modal-header, .modal-body, .modal-footer {
+	padding: 10px 10px 10px 10px;
+	height: 33.3333%;
+	width: 100%;
+}
